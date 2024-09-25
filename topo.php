@@ -102,6 +102,7 @@
         }
         .checkbox{
             margin: -15px 0px 25px 250px;
+            
         }
         .button{
             width: 80px;
