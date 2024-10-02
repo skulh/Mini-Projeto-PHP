@@ -1,7 +1,7 @@
 <?php 
 
-    include_once("topo.php");
-    include_once("menu.php");
+    include_once("templates/topo.php");
+    include_once("templates/menu.php");
 
 
     if(empty($_SERVER["QUERY_STRING"])){
@@ -13,5 +13,5 @@
     }
 
     
-    include_once("rodape.php");
+    include_once("templates/rodape.php");
 ?>

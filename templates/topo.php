@@ -6,10 +6,21 @@
     <title>Meu site</title>
    
     <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
         *{
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+            bottom: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
         }
 
         .topo{
@@ -23,9 +34,10 @@
         footer{
             color: white;
             background-color: #333;
+            box-sizing: border-box;
         }
         .rodape{
-            width: 100vw;
+            width: 100%;
             text-align: center;
             box-sizing: border-box !important; 
             display: flex;
@@ -101,7 +113,7 @@
             max-height: 150px;
         }
         .checkbox{
-            margin: -15px 0px 25px 250px;
+            margin: -16px -15px 35px 250px;
             
         }
         .button{

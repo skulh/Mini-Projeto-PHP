@@ -1,6 +1,6 @@
 <div class="form">
     <h2 style="text-align: center;">Formulário</h2>
-    <form action="obrigado.html" method="post">
+    <form action="obrigado.php" method="post">
 
         <label for="nome" class="label">Nome:</label>
         <input type="text" name="nome" class="input_entrada" required>
